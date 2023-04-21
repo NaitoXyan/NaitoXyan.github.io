@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            Reyes Portfolio
+        </title>
+
+        <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <body>
+
+        <div id="fullpage">
+
+            <div class="section">
+
+                <div class="introPage">
+
+                    <div id="introduction">
+                        Hello, I am <span class="spanName">Chalbert Reyes</span>
+                    </div>
+
+                    <div id="introPart2">
+                        A BSIT student from the University of Science and Technology of Southern Philippines.
+                    </div>
+
+                    <div id="myPicture">
+                        <img id="selfPic" src="images/me.jpg" alt="picOfMe">
+                    </div>
+                    
+                    <div id="scrollBellow">SCROLL DOWN</div>
+
+                    <i class="arrowDown"></i>
+
+                </div>
+                
+            </div>
+
+            <div class="section">
+                
+                <h1 class="progExp">
+                    PROGRAMMING EXPERIENCES
+                </h1>
+
+                <div class="slide"> 
+
+                    <div class="progExpSlide">
+
+                        <h2 id="masteredTitle">
+                            Mastered the programming fundamentals of the following:
+                        </h2>
+
+                        <ul>
+                            <li>
+                                <img id="cPlus2Logo" src="images/c++.png" alt="cPlusLogo">
+                                C++
+                            </li>
+                            <li>
+                                <img id="pythonLogo" src="images/python.png" alt="pythonLogo">
+                                Python
+                            </li>
+                            <li>
+                                <img id="javaLogo" src="images/java.png" alt="javaLogo">
+                                Java
+                            </li>
+                        </ul>
+
+                        <h2 id="currentlyLearning">
+                            Currently learning:
+                        </h2>
+
+                        <ul>
+                            <li>
+                                <img id="htmlLogo" src="images/html.png" alt="htmlLogo">
+                                HTML
+                            </li>
+                            <li>
+                                <img id="cssLogo" src="images/css.png" alt="cssLogo">
+                                CSS
+                            </li>
+                            <li>
+                                <img id="javascriptLogo" src="images/javascript.png" alt="javascriptLogo">
+                                JavaScript
+                            </li>
+                            <li>
+                                <img id="dbmsLogo" src="images/dbms.png" alt="dbmsLogo">
+                                DBMS
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="codewarsClass">
+
+                        <h2 id="codewarsStats">
+                            CodeWars Statistics
+                        </h2>
+
+                        <h3 id="codewarsInfo">
+                            CodeWars is a coding practice website for all programming levels. 
+                            It features a ranking system that ranges from 8 kyu, the lowest level, 
+                            to 4 dan, the highest. A "kata" is a coding problem, 
+                            of which I have completed 78. Currently, my rank is 6 kyu.
+                        </h3>
+    
+                        <img id="codewarsImg" src="images/codewarsrank.png" alt="codeWarsRank">
+
+                    </div>
+            
+                </div>
+
+                <div class="slide">
+
+                    <div class="snakeSlide">
+
+                        <h2 id="snakeTitle">
+                            SNAKE!
+                        </h2>
+    
+                        <h3 id="snakeDiscription">
+                            "SNAKE!" is our version of the classic snake game created using Java by <a href="https://github.com/Krunxx" target="_blank">Karen Cadalo</a> and me.
+                        </h3>
+    
+                        <video controls autoplay muted loop>
+                            <source src="videos/snakey.mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="section">
+
+                <div class="socialsClass">
+
+                    <h2 id="socials">
+                        SOCIALS
+                    </h2>
+    
+                    <h3 id="socialsWords">
+                        Reach out to me!
+                    </h3>
+                    
+                    <div class="socialsLink">
+
+                        <a id="fbLogolink" href="https://www.facebook.com/profile.php?id=100006575058873" target="_blank">
+                            <img id="fbLogo" src="images/facebook.png" alt="facebookLogo">
+                        </a>
+                        <a id="instaLogolink" href="https://www.instagram.com/reyes.chalbert/" target="_blank">
+                            <img id="instaLogo" src="images/instagram.png" alt="instagramLogo">
+                        </a>
+                        <a id="dcLogolink" href="https://discordapp.com/users/776840090437287965" target="_blank">
+                            <img id="dcLogo" src="images/discord.png" alt="discordLogo">
+                        </a>
+                        <a id="ghLogolink" href="https://github.com/NaitoXyan" target="_blank">
+                            <img id="ghLogo" src="images/github.png" alt="githubLogo">
+                        </a>
+                        <a id="cwLogolink" href="https://www.codewars.com/users/NaitoXyan" target="_blank">
+                            <img id="cwLogo" src="images/codewars.png" alt="codewarsLogo">
+                        </a>
+
+                    </div>
+                   
+                </div>
+                
+            </div>
+        </div>
+
+        <script type="text/javascript" src="javascript/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" src="javascript/fullpage.js"></script>
+        
+        
+    <script type="text/javascript">
+	   
+       $(document).ready(function() {
+	        $('#fullpage').fullpage({
+		    //options here
+            licenseKey: 'gplv3-license',
+            sectionsColor: ['#FFABAB', '#2B3467', '#57C5B6'],
+		    autoScrolling:true,
+	    });
+
+	    //methods
+	    $.fn.fullpage.setAllowScrolling(true);
+    });
+
+    </script>
+        
+    </body>
+</html>

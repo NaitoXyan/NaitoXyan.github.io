@@ -1,0 +1,417 @@
+.introPage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+    position: relative;
+    
+}
+
+#introduction {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #251B37;
+    text-align: center;
+}
+
+#introPart2 {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #251B37;
+    text-align: center;
+}
+
+.spanName {
+    color: #377D71;
+}
+
+div#myPicture {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img#selfPic {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+div#scrollBellow {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #377D71;
+    text-align: center;
+    position: relative;
+    bottom: -25px;;
+
+    animation: scrollDownText 2s linear infinite alternate;
+}
+
+@keyframes scrollDownText {
+    to {
+        color: #8879B0;
+        opacity: 0.5;
+    }
+}
+
+.arrowDown {
+    border: solid #377D71;
+    border-width: 0 15px 15px 0;
+    display: inline-block;
+    padding: 30px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+    animation: scrollDownArrow 2s linear infinite alternate;
+  }
+
+@keyframes scrollDownArrow {
+    to {
+        border-color:#8879B0;
+        opacity: 0.5;
+    }
+}
+
+.progExp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    margin-bottom: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 91px;
+    display: flex;
+    align-items: center;
+
+    color: #FCFFE7;
+}
+
+.progExp {
+    color: transparent;
+    background-image: linear-gradient(to right, #B9F3E4, #EA8FEA, #FFAACF, #F6E6C2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: title-animation 60s linear infinite;
+}
+
+@keyframes title-animation {
+    to {
+        background-position: 1500vh;
+    }
+}
+
+.progExpSlide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 255px;
+    margin-left: 285px;
+    align-content: flex-start;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #FCFFE7;
+}
+
+h2#masteredTitle {
+    font-size: 35px;
+}
+
+h2#currentlyLearning {
+    font-size: 35px;
+    position: relative;
+    left: -328px;
+}
+
+ul {
+    line-height: 35px;
+    word-spacing: 48px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -17px;
+    left: 42px;
+}
+
+img#javaLogo {
+    left: 50px;
+}
+
+.codewarsClass {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 760px;
+}
+
+h3#codewarsInfo {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #FCFFE7;
+    font-size: 25px;
+    margin-top: 0;
+    width: 1270px;
+}
+
+img#codewarsImg {
+    width: 1180px;
+    height: 390px;
+    bottom: 0;
+    left: 0;
+}
+
+h2#codewarsStats {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #FCFFE7;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 0;
+}
+
+.snakeSlide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 760px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #FCFFE7;
+}
+
+video {
+    width: 855px;
+    height: 480px;
+}
+
+h2#snakeTitle {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+h3#snakeDiscription {
+    margin-top: 0;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+a {
+    color: #FFABAB;
+}
+
+.socialsClass {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    height: 760px;
+}
+
+h2#socials {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 125px;
+    font-weight: 900;
+
+    font-family: 'Inter', sans-serif;
+}
+
+h3#socialsWords {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 52px;
+    font-weight: 700;
+    color: #FCFFE7;
+}
+
+.socialsLink {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 65px;
+}
+
+a#fbLogolink {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+img#fbLogo {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: transform .5s;
+}
+
+img#fbLogo:hover {
+    transform: scale(1.6);
+}
+
+a#instaLogolink {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+img#instaLogo {
+    width: 200px;
+    height: 145px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: transform .5s;
+}
+
+img#instaLogo:hover {
+    transform: scale(1.6);
+}
+
+a#dcLogolink {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+img#dcLogo {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: transform .5s;
+}
+
+img#dcLogo:hover {
+    transform: scale(1.6);
+}
+
+a#ghLogolink {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+img#ghLogo {
+    width: 210px;
+    height: 210px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: transform .5s;
+}
+
+img#ghLogo:hover {
+    transform: scale(1.6);
+}
+
+a#cwLogolink {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+img#cwLogo {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: transform .5s;
+}
+
+img#cwLogo:hover {
+    transform: scale(1.6);
+}
+
+h2#socials {
+    color:#feda75;
+    animation-name: title-socials;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-socials {
+    0%{
+        color: #feda75;
+    }
+    25%{
+        bcolor: #fa7e1e;
+    }
+    50%{
+        color: #d62976;
+    }
+    75%{
+        color: #962fbf;
+    }
+    100%{
+        color: #4f5bd5;
+    }
+}
