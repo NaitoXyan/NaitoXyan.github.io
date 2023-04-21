@@ -179,7 +179,7 @@ img#javaLogo {
 h3#codewarsInfo {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     color: #FCFFE7;
     font-size: 25px;
     margin-top: 0;
@@ -235,7 +235,7 @@ h3#snakeDiscription {
     margin-top: 0;
     font-size: 25px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 a {
